@@ -1,4 +1,10 @@
+// function toNumber(value) {
+//     return Number(value) ? console.log(Number(value)) : console.log(null);
+// }
+// toNumber([]);
+
+
 function toNumber(value) {
-    return Number(value) ? console.log(Number(value)) : console.log(null);
+    return (value) ? (value != 'number') : console.log(null);
 }
-toNumber([]);
+console.log(toNumber('sdfsdf'));
